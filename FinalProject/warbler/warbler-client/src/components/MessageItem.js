@@ -23,7 +23,7 @@ const MessageItem = ({
       <div className="message-area">
         <Link to="/">@{username} &nbsp;</Link>
         <span className="text-muted">
-          <Moment className="text-muted" format="Do MMM YYYY">
+          <Moment className="text-muted" format="DD MM YYYY">
             {date}
           </Moment>
         </span>
